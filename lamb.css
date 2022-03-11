@@ -822,20 +822,21 @@ footer .ftr-top .ftr-top-wrp ul li a {
         z-index: -1;
         display: inline-block;
     }
-    footer .ftr-top .ftr-top-wrp .ftr-top-menu p:after {
+       footer .ftr-top .ftr-top-wrp .ftr-top-menu p:after {
         transform: rotate(90deg);
     }
     footer .ftr-top .ftr-top-wrp .ftr-top-menu ul {
         transition: all ease 0.45s;
     }
+    footer .ftr-top .ftr-top-wrp .ftr-top-menu ul li {
+        display: none;
+    }
     footer .ftr-top .ftr-top-wrp .ftr-top-menu ul {
         height: auto;
         overflow: visible;
         border-bottom: 1px solid #51744A;
-        padding-bottom: 10px;
     }
 }
-
 footer .ftr-bottom {
     display: flex;
     flex-wrap: wrap;
