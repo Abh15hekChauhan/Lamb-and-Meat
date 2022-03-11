@@ -1,0 +1,50 @@
+ <!-- <div class="card-main-wrapper">
+            <div class="container card-container">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <a href="#">
+                            <div class="card--header">
+                                <img src="/images/anchovy.png" alt="recipes" />
+                            </div>
+                            <div class="card--footer">
+                                Looking for<br/> <b>Aussome recipes?</b>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="#">
+                            <div class="card--header">
+                                <img src="/images/warmbeef.png" alt="cooking methods" />
+                            </div>
+                            <div class="card--footer">
+                                Dive into <b>cooking<br/> methods</b> 101
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="#">
+                            <div class="card--header">
+                                <img src="images/slice.png" alt="meat cuts" />
+                            </div>
+                            <div class="card--footer">
+                                <b>Meat cuts</b> for<br/> your next dish
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="#">
+                            <div class="card--header">
+                                <img src="images/salad.png" alt="nutrition" />
+                            </div>
+                            <div class="card--footer">
+                                Give your body the <br/><b>nutrition</b> it deserves
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div> -->

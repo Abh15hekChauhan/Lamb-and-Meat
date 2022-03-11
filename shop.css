@@ -1,0 +1,312 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@font-face {
+    font-family: 'surt';
+    src: url('/surt/ATSurt-Regular.ttf');
+}
+
+@media (max-width: 768px) {
+    html {
+        width: 10rem;
+    }
+    .bodyClass {
+        /* width: 1000px; */
+        position: absolute;
+        top: -20px;
+        height: 1200px;
+        margin: 0px;
+        padding: 0px;
+        /* background-color: #bbb; */
+    }
+    .slide {
+        /* font-size: calc(16px + (80 - 16) * ((100vw - 375px) / (1920 - 375))); */
+        /* width: calc(100%-80px); */
+        /* width: calc(100% - 100px); */
+        /* display: none; */
+        width: 38.6%;
+    }
+    #Rounded_Rectangle_1 {
+        position: relative;
+        left: 35.6rem;
+        float: left;
+        font-size: 100%;
+        top: 315px;
+        width: 13.92rem;
+        height: 119px;
+        z-index: 120;
+    }
+    #ftr {
+        width: 25.7%;
+    }
+    #bottom {
+        width: 25.7%;
+    }
+    #allDots {
+        position: absolute;
+        left: 43rem;
+    }
+    #search {
+        position: absolute;
+        left: 15rem;
+        z-index: 0;
+    }
+    #fa-search {
+        position: absolute;
+        left: 16.8rem;
+        color: white;
+        z-index: 1;
+    }
+    text {
+        position: absolute;
+    }
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    /* display: none; */
+}
+
+
+/* @media (max-width:1920px) {
+    .container {
+         width: calc(100% - 100px); 
+    }
+} */
+
+@media (min-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+/* span{
+    width: 7px;
+    height: 7px;
+    border-radius: 8px;
+    background: #D8CCC7;
+    border: 1px solid #919191;
+    display: inline-block;
+} */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    /* left: -0.78rem; */
+    margin: 0rem;
+    /* padding: 0%; */
+    width: 192rem;
+    height: 85rem;
+    outline: none;
+    font-size: 80px;
+    /* width: calc(192rem - 10%); */
+}
+
+a {
+    outline: none;
+}
+
+[data-component="slideshow"] .slide {
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+    display: block;
+}
+
+#slideshow-example {
+    font-size: 0rem;
+}
+
+h2 {
+    position: absolute;
+    z-index: -1;
+}
+
+.cart {
+    position: relative;
+    left: 4.4rem;
+    top: -1.1rem;
+    width: 2.9rem;
+    height: 3.3rem;
+}
+
+.dotBar {
+    position: relative;
+    /* padding-right: 1.6px; */
+    top: 2.5rem;
+    left: 2.3rem;
+    height: 7rem;
+}
+
+.pics {
+    width: 100%;
+    object-fit: fill;
+    height: 85rem;
+    position: relative;
+    margin: 0rem;
+    padding: 0rem;
+    transition: 3s ease-in-out;
+    z-index: -1;
+}
+
+.ftr {
+    width: 192rem;
+    padding: 28rem 0rem;
+    margin: 0rem;
+    background-color: #214f2b;
+    /* margin-top: 85rem; */
+}
+
+.bottom {
+    width: 192rem;
+    background-color: #274706;
+    padding: 7rem 0rem;
+}
+
+.Foodservice {
+    font-size: 19px;
+    font-family: "Surt";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.493;
+    text-align: center;
+    position: absolute;
+    left: 416.643px;
+    top: 895.409px;
+    width: 111px;
+    height: 15px;
+    z-index: 12;
+}
+
+.Menu_success {
+    font-size: 16px;
+    font-family: "Surt";
+    color: rgb(255, 255, 255);
+    line-height: 0.586;
+    text-align: left;
+    position: absolute;
+    left: 439.937px;
+    top: 944.883px;
+    width: 105px;
+    height: 13px;
+    z-index: 13;
+}
+
+.Rounded_Rectangle_1 {
+    /* padding-left: 2.3rem;
+    padding-top: 2.5rem; */
+    border-radius: 2.6rem 0px 0px 2.6rem;
+    background-color: rgb(23, 57, 30);
+    position: absolute;
+    left: 1781px;
+    top: 315px;
+    width: 13.92rem;
+    height: 119px;
+    z-index: 120;
+    /* margin-left: 178rem; */
+    /* transform: translateX(1000%); */
+}
+
+.Where__to_buy {
+    font-size: 1.895rem;
+    font-family: "Surt";
+    color: rgb(254, 254, 254);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 0.74746865814943, 0, 0, 0.74746865814943, 0, 0);
+    -webkit-transform: matrix( 0.74746865814943, 0, 0, 0.74746865814943, 0, 0);
+    -ms-transform: matrix( 0.74746865814943, 0, 0, 0.74746865814943, 0, 0);
+    position: absolute;
+    top: 6.5rem;
+    left: 4.4rem;
+    bottom: 1.5rem;
+    width: 65.083px;
+    height: 45.78px;
+    z-index: 123;
+}
+
+.allDots {
+    position: absolute;
+    text-align: center;
+    left: 934px;
+    top: 492px;
+}
+
+.dots {
+    z-index: 112;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    background-color: #bbb;
+    border-radius: 0.8rem;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.search {
+    position: absolute;
+    top: 6.4rem;
+    left: 78.8rem;
+    right: 72rem;
+    display: inline-block;
+    text-align: center;
+}
+
+input[type=search]::placeholder {
+    color: white;
+}
+
+input[type=search] {
+    border-radius: 4rem;
+    width: 41rem;
+    height: 4rem;
+    background-color: #dadada;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 4rem;
+}
+
+.fa-search {
+    display: inline-block;
+    top: 1.3rem;
+    left: 2rem;
+    position: absolute;
+    font-size: 1.3rem;
+    color: white;
+}
+
+
+/* input[type=search]:before {
+    <i class="fa fa-search" aria-hidden="true"></i>
+} */
+
+
+/* .Layer_90,
+.Layer_91,
+.Layer_92 {
+    background-image: url("Layer 9.png");
+}
+
+.Layer_90 {
+    left: 934px;
+}
+
+.Layer_91 {
+    left: 960px;
+}
+
+.Layer_92 {
+    left: 986px;
+} */
+
+
+/* .Layer_9 {
+    background-image: url("Layer 9.png");
+  }
+   */
