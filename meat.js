@@ -26,7 +26,9 @@ var Fsc = document.getElementById('Fsc');
 var Btc = document.getElementById('Btc');
 var Ust = document.getElementById('Ust');
 var Rsc = document.getElementById('Rsc');
+var hr = document.getElementsByClassName('hr');
 let z = 0;
+let y = 0;
 // var elem = window.getComputedStyle(Fsc, ':after'); //get css styles
 
 Fsc.addEventListener('click', () => {
@@ -123,6 +125,14 @@ $(document).ready(() => {
 
     });
     $('.explore').click(() => {
+        if (y == 0) {
+            $('.hr').css('transform', 'rotate(90deg)');
+            y = 1;
+        } else {
+            $('.hr').css('transform', 'rotate(0deg)');
+            y = 0;
+
+        }
         $('.Rounded_Rectangle_3').slideToggle(200);
 
     });
