@@ -108,7 +108,7 @@ Rsc.addEventListener('click', () => {
 // console.log(elem)
 $(document).ready(() => {
     $('#Fsc').click(() => {
-        $('.Fsc').slideToggle();
+        $('.Fsc').slideToggle(200);
     });
     $('#Btc').click(() => {
         $('.Btc').slideToggle(200);
@@ -120,6 +120,10 @@ $(document).ready(() => {
     });
     $('#Rsc').click(() => {
         $('.Rsc').slideToggle(200);
+
+    });
+    $('.explore').click(() => {
+        $('.Rounded_Rectangle_3').slideToggle(200);
 
     });
 });
