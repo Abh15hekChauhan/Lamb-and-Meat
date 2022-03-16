@@ -839,6 +839,7 @@ footer .ftr-top .ftr-top-wrp ul li a {
         height: auto;
         overflow: visible;
         border-bottom: 1px solid #51744A;
+        padding-bottom: 10px;
     }
 }
 
