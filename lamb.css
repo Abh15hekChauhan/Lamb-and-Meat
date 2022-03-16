@@ -295,7 +295,17 @@ header .Rounded_Rectangle_3 .explore-box a {
     }
     .explore-box {
         width: 17%;
-        /* align-items: center; */
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .Rounded_Rectangle_3 {
+        max-width: calc(100% - 0px);
+        height: 450px;
+    }
+    .explore-box {
+        width: 23%;
         justify-content: center;
     }
 }
