@@ -294,19 +294,10 @@ header .Rounded_Rectangle_3 .explore-box a {
         height: 450px;
     }
     .explore-box {
-        width: 17%;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 375px) {
-    .Rounded_Rectangle_3 {
-        max-width: calc(100% - 0px);
-        height: 450px;
-    }
-    .explore-box {
-        width: 23%;
-        justify-content: center;
+        /* width: calc(100%-800px); */
+        justify-content: space-between;
+        flex-direction: column;
+        width: 25%;
     }
 }
 
